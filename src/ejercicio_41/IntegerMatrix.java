@@ -1,9 +1,14 @@
 package ejercicio_41;
 
+
 /**
  * Clase que abstrae una matriz de enteros con las operaciones solicitadas por el ejercicio 41.
  */
 public class IntegerMatrix {
+    public int[][] getIntegerMatrix() {
+        return integerMatrix;
+    }
+
     int[][] integerMatrix;
     int totalColumns;
     int totalRows;
